@@ -1,0 +1,29 @@
+.o-primary-navigation {
+    &__inner {
+        @apply gap-2 hidden absolute h-full w-full bg-white top-0 left-0 p-5 flex-col gap-0 pt-24
+        md:flex md:relative md:h-auto md:w-auto md:p-0 md:pt-0 md:flex-row md:gap-4 md:bg-transparent
+        sm:gap-4;
+        &.is-open {
+            @apply flex;
+        }
+    }
+    &__open-nav {
+        @apply flex flex-col gap-1 relative z-10 md:hidden;
+        span {
+            @apply w-6 h-[2px] bg-black block relative transition-all ease-in-out duration-300;
+        }
+        &[data-open="true"] {
+            span:nth-child(1) {
+                @apply absolute top-0 rotate-45;
+            }
+            span:nth-child(2) {
+                @apply opacity-0;
+            }
+        
+            span:nth-child(3) {
+                @apply absolute top-0 -rotate-45;
+            }
+        }
+    }
+    
+}

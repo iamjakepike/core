@@ -1,0 +1,5 @@
+body {
+    &.is-locked {
+        @apply h-screen overflow-hidden;
+    }
+}

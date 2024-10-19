@@ -1,0 +1,10 @@
+.o-page-title {
+    $root: &;
+    @apply font-bold mb-8;
+    &--post {
+        @apply grid grid-cols-1 gap-0 mb-2;
+        #{$root}__heading-text {
+            @apply mb-1;
+        }
+    }
+}
