@@ -25,10 +25,11 @@
 						'menu_class'     => 'o-primary-navigation__inner js-nav',
 					) );
 				?>
-				<div class="o-primary-navigation__open-nav js-open-nav"
+				<button class="o-primary-navigation__open-nav js-open-nav"
 					data-open="false" 
 	     			aria-expanded="false" 
-	     			aria-controls="primary-navigation">
+	     			aria-controls="primary-navigation"
+					aria-label="Open navigation">
 					<span></span>
 					<span></span>
 					<span></span>
