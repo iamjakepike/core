@@ -6,9 +6,19 @@
         &.is-open {
             @apply flex;
         }
-    a {
-        &:hover {
-            @apply underline;
+    li {
+        @apply flex items-center;
+        a {
+            &:hover {
+                @apply underline;
+            }
+        }
+        &.o-btn {
+            a {
+                &:hover {
+                    @apply no-underline
+                }
+            }
         }
     }
     }
