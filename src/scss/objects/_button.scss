@@ -6,7 +6,7 @@
     &--ghost {
         @apply bg-transparent text-black;
         &:hover {
-            @apply bg-black text-white
+            @apply bg-black text-white -outline-offset-2;
         }
     }
 }
