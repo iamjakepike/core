@@ -699,6 +699,8 @@ video {
 }a:not(p a,ul a,ol a,li a,h1 a,h2 a,h3 a,h4 a,h5 a,h6 a,span a,nav a,header a,footer a) {
   margin-bottom: 1.25rem;
   display: block;
+}footer a:hover,header a:hover {
+  text-decoration-line: underline;
 }p a {
   text-decoration-line: underline;
 }h1 {
@@ -779,6 +781,8 @@ video {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}.o-primary-navigation__inner a:hover {
+  text-decoration-line: underline;
 }.o-primary-navigation__open-nav {
   position: relative;
   z-index: 10;

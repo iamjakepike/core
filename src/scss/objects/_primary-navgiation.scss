@@ -6,6 +6,11 @@
         &.is-open {
             @apply flex;
         }
+    a {
+        &:hover {
+            @apply underline;
+        }
+    }
     }
     &__open-nav {
         @apply flex flex-col gap-1 relative z-10 md:hidden;
