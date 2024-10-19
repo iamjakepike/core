@@ -1,0 +1,16 @@
+// SCSS Variables
+$black: #191919;
+$white: #FBFAF5;
+$core-bg: $black;
+$core-text: $white;
+$default-sans: "Helvetica, Arial, sans-serif";
+$default-serif: "Georgia, serif";
+
+:root {
+  --black: #{$black};
+  --white: #{$white};
+  --core-bg: #{$core-bg};
+  --core-text: #{$core-text};
+  --default-sans: #{$default-sans};
+  --default-serif: #{$default-serif};
+}

@@ -1,12 +1,12 @@
 .o-btn {
-    @apply p-3 outline outline-1 w-fit cursor-pointer transition-all bg-black text-white;
+    @apply p-3 outline outline-1 w-fit cursor-pointer transition-all bg-core-text text-core-bg;
     &:hover {
-        @apply bg-white text-black;
+        @apply bg-core-bg text-core-text;
     }
     &--ghost {
-        @apply bg-transparent text-black;
+        @apply bg-transparent text-core-text;
         &:hover {
-            @apply bg-black text-white -outline-offset-2;
+            @apply bg-core-text text-core-bg -outline-offset-2;
         }
     }
 }
