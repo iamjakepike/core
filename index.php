@@ -5,17 +5,17 @@
     <main>
         <div class="o-wrapper">
 
-            <h1 class="text-4xl">H1 Heading One</h1>
+            <h1>H1 Heading One</h1>
 
-            <h2 class="text-3xl">H2 Heading Two</h2>
+            <h2>H2 Heading Two</h2>
 
-            <h3 class="text-2xl">H3 Heading Three</h3>
+            <h3>H3 Heading Three</h3>
 
-            <h4 class="text-xl">H4 Heading Four</h4>
+            <h4>H4 Heading Four</h4>
 
             <h5>H5 Heading Five</h5>
 
-            <h6 class="text-small">H6 Heading Six</h6>
+            <h6>H6 Heading Six</h6>
 
             <p>Paragraph Text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum reiciendis non eaque nisi numquam illum, sequi voluptates fugiat soluta? Laudantium, cumque hic! Vel placeat mollitia quibusdam officia repudiandae delectus, blanditiis quidem est harum quaerat facere modi magnam beatae accusamus ipsum consectetur. Ab quidem illum sunt amet quae blanditiis architecto animi! <a href="#">Text Link</a></p>
 
