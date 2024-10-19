@@ -1,0 +1,12 @@
+.o-btn {
+    @apply p-3 outline outline-1 w-fit cursor-pointer transition-all bg-black text-white;
+    &:hover {
+        @apply bg-white text-black;
+    }
+    &--ghost {
+        @apply bg-transparent text-black;
+        &:hover {
+            @apply bg-black text-white
+        }
+    }
+}

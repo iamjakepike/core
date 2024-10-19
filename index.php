@@ -34,6 +34,9 @@
             <a href="#">Anchor Link</a>
 
             <small class="block mb-5">Small Text</small>
+
+            <a href="#" class="o-btn">Button</a>
+            <a href="#" class="o-btn o-btn--ghost">Ghost Button</a>
             
             <?php require_once( get_template_directory() . '/includes/components/default/default_post-loop.php' ); ?>
         </div>
