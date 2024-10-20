@@ -686,7 +686,7 @@ video {
 }.filter {
   -webkit-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
           filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}:root{--black: #191919;--white: #FBFAF5;--core-bg: #191919;--core-text: #FBFAF5;--default-sans: Helvetica, Arial, sans-serif;--default-serif: Georgia, serif}html {
+}:root{--black: #000;--white: #FFF;--core-bg: #FFF;--core-text: #000;--default-sans: Helvetica, Arial, sans-serif;--default-serif: Georgia, serif}html {
   background-color: var(--core-bg);
   color: var(--core-text);
 }body {
